@@ -52,7 +52,7 @@ public class LibraryBookTracker {
                     "OperationAnalyzer"
             );
 
-            // ===== واضح للتسليم: يثبت start/join وترتيب التنفيذ =====
+          
             System.out.println("[Main] Starting FileReader thread...");
             fileThread.start();
             fileThread.join();   // WAIT - Thread 1 finishes completely
